@@ -1,0 +1,15 @@
+{
+    "Count.sampleName": "AdultMouseBrain",
+    "Count.fastqName": "V1_Adult_Mouse_Brain",
+    "Count.inputFastq": [
+        "s3://dp-lab-test/st/V1_Adult_Mouse_Brain/V1_Adult_Mouse_Brain_S5_L001_I1_001.fastq.gz",
+        "s3://dp-lab-test/st/V1_Adult_Mouse_Brain/V1_Adult_Mouse_Brain_S5_L001_I2_001.fastq.gz",
+        "s3://dp-lab-test/st/V1_Adult_Mouse_Brain/V1_Adult_Mouse_Brain_S5_L001_R1_001.fastq.gz",
+        "s3://dp-lab-test/st/V1_Adult_Mouse_Brain/V1_Adult_Mouse_Brain_S5_L001_R2_001.fastq.gz"
+    ],
+    "Count.referenceUrl": "https://cf.10xgenomics.com/supp/spatial-exp/refdata-gex-mm10-2020-A.tar.gz",
+    "Count.heImage": "s3://dp-lab-test/st/V1_Adult_Mouse_Brain/V1_Adult_Mouse_Brain_image.tif",
+    "Count.slideSerialNumber": "V19L01-041",
+    "Count.areaId": "C1",
+    "Count.dockerRegistry": "quay.io/hisplan"
+}

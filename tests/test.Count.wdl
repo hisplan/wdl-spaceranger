@@ -45,6 +45,6 @@ workflow Count {
         File perMoleculeInfo = Count.perMoleculeInfo
         File loupe = Count.loupe
         File spatialEnrichment = Count.spatialEnrichment
-        File debugFile = Count.debugFile
+        File pipestanceMeta = Count.pipestanceMeta
     }
 }

@@ -66,11 +66,7 @@ task Count {
             tar cvzf raw_feature_bc_matrix.tgz ~{outBase}/raw_feature_bc_matrix/*
 
             tar cvzf analysis.tgz ~{outBase}/analysis/*
-
-            tar cvzf debug.tgz ./~{sampleName}/_*
         fi
-
-        find .
     >>>
 
     output {
@@ -114,13 +110,13 @@ task Count {
         # - Spatial Enrichment using Moran I file:    /opt/sample345/outs/spatial_enrichment.csv
         File spatialEnrichment = outBase + "/spatial_enrichment.csv"
 
-        # for debugging
-        File debugFile = "debug.tgz"
+        # pipestance metadata
+        File pipestanceMeta = sampleName + "/" + sampleName + ".mri.tgz"
     }
 
     runtime {
         docker: dockerImage
-        # disks: "local-disk 1500 SSD"
+        disks: "local-disk " + ceil(5 * (if inputSize < 1 then 50 else inputSize)) + " HDD"
         cpu: 32
         memory: "128 GB"
     }

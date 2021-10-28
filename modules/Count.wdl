@@ -15,6 +15,8 @@ task Count {
         String slideSerialNumber
         String areaId
 
+        Boolean reorientImages
+
         # docker-related
         String dockerRegistry
     }
@@ -55,7 +57,7 @@ task Count {
             --sample=~{fastqName} \
             --image=~{heImage} \
             --slide=~{slideSerialNumber} \
-            --area=~{areaId}
+            --area=~{areaId} ~{true='--reorient-images' false='' reorientImages}
 
         if [ $? -eq 0 ]
         then

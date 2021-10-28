@@ -15,6 +15,8 @@ workflow SpaceRanger {
         String slideSerialNumber
         String areaId
 
+        Boolean reorientImages
+
         # docker-related
         String dockerRegistry
     }
@@ -28,6 +30,7 @@ workflow SpaceRanger {
             heImage = heImage,
             slideSerialNumber = slideSerialNumber,
             areaId = areaId,
+            reorientImages = reorientImages,
             dockerRegistry = dockerRegistry
     }
 

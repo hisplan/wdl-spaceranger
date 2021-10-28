@@ -11,5 +11,6 @@
     "Count.heImage": "s3://dp-lab-test/st/V1_Adult_Mouse_Brain/V1_Adult_Mouse_Brain_image.tif",
     "Count.slideSerialNumber": "V19L01-041",
     "Count.areaId": "C1",
+    "Count.reorientImages": false,
     "Count.dockerRegistry": "quay.io/hisplan"
 }

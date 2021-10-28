@@ -15,6 +15,8 @@ workflow Count {
         String slideSerialNumber
         String areaId
 
+        Boolean reorientImages
+
         # docker-related
         String dockerRegistry        
     }
@@ -28,6 +30,7 @@ workflow Count {
             heImage = heImage,
             slideSerialNumber = slideSerialNumber,
             areaId = areaId,
+            reorientImages = reorientImages,
             dockerRegistry = dockerRegistry
     }
 

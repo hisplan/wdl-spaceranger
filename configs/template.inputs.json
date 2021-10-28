@@ -11,5 +11,6 @@
     "SpaceRanger.heImage": "s3://dp-lab-test/st/V1_Adult_Mouse_Brain/V1_Adult_Mouse_Brain_image.tif",
     "SpaceRanger.slideSerialNumber": "V19L01-041",
     "SpaceRanger.areaId": "C1",
+    "SpaceRanger.reorientImages": false,
     "SpaceRanger.dockerRegistry": "quay.io/hisplan"
 }

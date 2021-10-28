@@ -29,9 +29,6 @@ then
     exit 1
 fi
 
-rm -rf SpaceRanger.deps.zip
-zip SpaceRanger.deps.zip modules modules/*
-
 cromwell-tools submit \
     --secrets-file ${service_account_key} \
     --wdl SpaceRanger.wdl \

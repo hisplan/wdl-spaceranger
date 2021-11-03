@@ -1,0 +1,9 @@
+{
+    "BayesSpace.sampleName": "MH-1300_V19T19-009_A1",
+    "BayesSpace.spatial": "s3://dp-lab-gwf-core/cromwell-execution/SpaceRanger/ddca6d1e-7c70-410e-a11e-0019607431c4/call-Count/spatial.tgz",
+    "BayesSpace.filteredFeatureBarcodeMatrix": "s3://dp-lab-gwf-core/cromwell-execution/SpaceRanger/ddca6d1e-7c70-410e-a11e-0019607431c4/call-Count/filtered_feature_bc_matrix.tgz",
+    "BayesSpace.numClusters": 6,
+    "BayesSpace.numHvg": 2000,
+    "BayesSpace.numPca": 15,
+    "BayesSpace.dockerRegistry": "quay.io/hisplan"    
+}

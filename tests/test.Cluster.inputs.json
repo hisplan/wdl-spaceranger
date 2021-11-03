@@ -1,0 +1,4 @@
+{
+    "Cluster.sampleName": "MH-1300_V19T19-009_A1",
+    "Cluster.secondaryAnalysis": "s3://dp-lab-gwf-core/cromwell-execution/SpaceRanger/ddca6d1e-7c70-410e-a11e-0019607431c4/call-Count/analysis.tgz"
+}

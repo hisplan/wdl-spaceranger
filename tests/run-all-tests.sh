@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-modules="Count"
+modules="BayesSpace Cluster Count"
 
 usage()
 {

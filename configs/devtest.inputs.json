@@ -1,0 +1,14 @@
+{
+    "SpaceRanger.sampleName": "tinytest",
+    "SpaceRanger.fastqName": "tinytest",
+    "SpaceRanger.inputFastq": [
+        "s3://dp-lab-test/tiny/spaceranger_tiny_inputs/fastqs/tinytest_S1_L001_R1_001.fastq.gz",
+        "s3://dp-lab-test/tiny/spaceranger_tiny_inputs/fastqs/tinytest_S1_L001_R2_001.fastq.gz"
+    ],
+    "SpaceRanger.referenceUrl": "https://dp-lab-test.s3.amazonaws.com/tiny/spaceranger_tiny_ref/refdata-st-tiny.tar.gz",
+    "SpaceRanger.heImage": "s3://dp-lab-test/tiny/spaceranger_tiny_inputs/image/tinyimage.jpg",
+    "SpaceRanger.slideSerialNumber": "V19L29-035",
+    "SpaceRanger.areaId": "A1",
+    "SpaceRanger.reorientImages": false,
+    "SpaceRanger.dockerRegistry": "quay.io/hisplan"
+}

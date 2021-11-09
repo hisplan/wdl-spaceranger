@@ -1,0 +1,9 @@
+{
+    "pipelineType": "SpaceRanger",
+    "project": "tinytest",
+    "sample": "tinytest",
+    "owner": "chunj",
+    "destination": "s3://dp-lab-gwf-core/outputs/sr-results/",
+    "transfer": "skip",
+    "comment": "-"
+}

@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 wf_name="spaceranger"
-version="1.3.0"
+version="1.3.1"
 files="submit.sh SpaceRanger.deps.zip SpaceRanger.wdl SpaceRanger.options.aws.json configs/template.*.json"
 dest="$HOME/scing/bin"
 

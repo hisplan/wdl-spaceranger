@@ -1,6 +1,6 @@
 # wdl-spaceranger
 
-Space Ranger v1.3.0
+WDLized Space Ranger Pipeline
 
 ## License
 

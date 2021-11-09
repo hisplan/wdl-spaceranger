@@ -25,7 +25,7 @@ task Count {
         heImage: "Brightfield tissue H&E image in .jpg or .tiff format."
     }
 
-    String spaceRangerVersion = "1.3.0"
+    String spaceRangerVersion = "1.3.1"
     String dockerImage = dockerRegistry + "/cromwell-spaceranger:" + spaceRangerVersion
     Float inputSize = size(inputFastq, "GiB") + size(heImage, "GiB")
 
